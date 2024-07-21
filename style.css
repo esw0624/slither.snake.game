@@ -1,0 +1,69 @@
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+    overflow: hidden;
+}
+.wrapper {
+    width: 65vmin;
+    height: 65vmin;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    border-radius: 5px;
+    background: #442947;
+    position: relative;
+}
+.title {
+    color: #B8C6DC;
+    font-size: 1.2rem;
+    font-weight: 1000;
+    margin-top: 10px; /* Space between title and top of the wrapper */
+    margin-bottom: 0.5px; /* Space between title and game details */
+    text-align: center;
+    letter-spacing: 1px;
+}
+.game-details {
+    color: #B8C6DC;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.play-board {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+    background: #250357;
+}
+.play-board .food {
+    background: url('Google-Noto-Emoji-Food-Drink-32349-red-apple.512.png') no-repeat center center;
+    background-size: cover;
+}
+.play-board .head {
+    background: #000; /* Color for the head of the snake */
+}
+.play-board .body {
+    background: #4ce158; /* Color for the body of the snake */
+}
+.start-button {
+    padding: 20px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #4ce158;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
