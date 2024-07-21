@@ -18,3 +18,16 @@ HTML: For structuring the game layout.
 CSS: For styling the game interface and ensuring responsiveness.
 
 JavaScript: For implementing game logic, real-time updates, and handling user inputs.
+
+## Getting Started
+### Prerequisites
+To run this game locally, you need a web browser that supports HTML, CSS, and JavaScript.
+
+### Installation
+1. Clone the repository to your local machine:
+
+git clone https://github.com/yourusername/slither-snake-game.git
+
+2. Navigate to the project directory:
+
+cd slither.snake.game
