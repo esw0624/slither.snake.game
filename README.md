@@ -31,3 +31,6 @@ git clone https://github.com/yourusername/slither-snake-game.git
 2. Navigate to the project directory:
 
 cd slither.snake.game
+
+3. To run the game:
+python -m http.server
